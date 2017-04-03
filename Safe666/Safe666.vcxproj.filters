@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="病毒查杀">
+      <UniqueIdentifier>{9bcda26b-fad8-40b1-99b4-945d7a9cbce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="软件管理">
+      <UniqueIdentifier>{a9591e67-57d3-4d37-9da3-713a8d8e6c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内存管理">
+      <UniqueIdentifier>{6d14d41c-ea04-4085-8a2e-456913db8c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自启动">
+      <UniqueIdentifier>{a43f71e6-bde8-4ed0-8c9c-a95ee49d3852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统服务">
+      <UniqueIdentifier>{669a735a-ac6e-4aca-b3e6-12660af19d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理">
+      <UniqueIdentifier>{7e8a93ba-f26e-4407-a6ac-e16313331000}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViresScan.h">
+      <Filter>病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>病毒查杀</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareManager.h">
+      <Filter>软件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>内存管理</Filter>
+    </ClInclude>
+    <ClInclude Include="SelfRunning.h">
+      <Filter>自启动</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Services.h">
+      <Filter>系统服务</Filter>
+    </ClInclude>
+    <ClInclude Include="Rubbish.h">
+      <Filter>垃圾清理</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Safe666.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViresScan.cpp">
+      <Filter>病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>病毒查杀</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareManager.cpp">
+      <Filter>软件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>内存管理</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfRunning.cpp">
+      <Filter>自启动</Filter>
+    </ClCompile>
+    <ClCompile Include="Services.cpp">
+      <Filter>系统服务</Filter>
+    </ClCompile>
+    <ClCompile Include="Rubbish.cpp">
+      <Filter>垃圾清理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Safe666.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
